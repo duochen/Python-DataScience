@@ -1,0 +1,8 @@
+Word Frequency Counter
+
+Write a program that downloads a web page requested by the user, and
+reports up to ten most frequently used words. The program should treat
+all words as case-insensitive.
+
+HINT:
+use urllib to download web page.
