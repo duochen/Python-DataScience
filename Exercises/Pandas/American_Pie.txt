@@ -1,0 +1,6 @@
+American Pie
+
+Write a program that either displays or saves as a PDF file a pie chart of
+the U.S. states grouped by the first initial. You’ll need a list of state names
+or abbreviations to work on this problem. You can get it from the namesake
+website: www.stateabbreviations.us
