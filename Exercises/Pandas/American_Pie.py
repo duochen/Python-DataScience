@@ -17,4 +17,4 @@ states.set_index('Postal').groupby(initial).count()['Standard'].plot.pie()
 plt.title("States by the First Initial")
 plt.ylabel("")
 
-plt.savefig("../images/states-pie.pdf")
+plt.savefig("states-pie.pdf")
