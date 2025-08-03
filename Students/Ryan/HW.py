@@ -50,9 +50,12 @@ def is_in_Habitable_Zone(row):
 
 df["In Habitable Zone"] = df.apply(is_in_Habitable_Zone, axis=1)
 
+# ---- display options (put before printing) ----
 pd.set_option("display.max_columns", None)
-pd.set_option("display.width", 1000)
-pd.set_option("display.max_colwidth", None)
-pd.set_option("display.max_rows", None)
+pd.set_option("display.max_rows", None)        # show all rows
+pd.set_option("display.width", None)           # unlimited line width
+pd.set_option("display.max_colwidth", None)    # do not truncate cell text
+# -----------------------------------------------
 
-print(df[["Planet Name", "Stellar Luminosity", "Semi-Major Axis", "In Habitable Zone"]].head())
+# Print the full table (no truncation)
+print(df[["Planet Name", "Stellar Luminosity", "Semi-Major Axis", "In Habitable Zone"]].to_string(index=False))
