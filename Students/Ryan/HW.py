@@ -9,10 +9,9 @@ data = {
         'K2-182 b', 'K2-182 b', 'TOI-2076 b', 'TOI-2076 c', 'TOI-2076 d',
         'TOI-1824 b', 'HIP 97166 b', 'K2-263 b', 'TOI-1444 b', 'HD 63433 c',
         'TOI-1753 b', 'TOI-1776 b', 'TOI-2141 b', 'TOI-1669 c', 'TOI-1451 b',
-        'HD 93963 A b',  # <-- comma was missing after this item
-        'TOI-1742 b', 'TOI-559 b', 'TOI-1736 b', 'Kepler-1514 b', 'HR 858 d',
-        'TOI-628 b', 'WASP-18 b', 'Kepler-1704 b', 'TOI-480 b', 'NGTS-13 b',
-        'Kepler-21 b', 'TOI-2145 b', 'TOI-2145 b', 'TOI-2497 b'
+        'HD 93963 A b', 'TOI-1742 b', 'TOI-559 b', 'TOI-1736 b', 'Kepler-1514 b', 
+        'HR 858 d', 'TOI-628 b', 'WASP-18 b', 'Kepler-1704 b', 'TOI-480 b', 
+        'NGTS-13 b', 'Kepler-21 b', 'TOI-2145 b', 'TOI-2145 b', 'TOI-2497 b'
     ],
     'Semi-Major Axis': [
         0.027, 0.0946, 0.02675, 0.01713, 0.01195, 0.01406, 0.01138, 0.02607,
