@@ -26,7 +26,6 @@ with open(filename) as f:
             lows.append(low)
 
 # Plot the high and low temperatures.
-plt.style.use('seaborn')
 fig, ax = plt.subplots()
 ax.plot(dates, highs, c='red', alpha=0.5)
 ax.plot(dates, lows, c='blue', alpha=0.5)
